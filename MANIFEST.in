@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include expense_tracker *.css
+recursive-include expense_tracker *.csv
+recursive-include expense_tracker *.html
+recursive-include expense_tracker *.ico
+recursive-include expense_tracker *.js
+recursive-include expense_tracker *.json
+recursive-include expense_tracker *.md
+recursive-include expense_tracker *.png
+recursive-include expense_tracker *.py
+recursive-include expense_tracker *.svg
+recursive-include expense_tracker *.txt
+recursive-exclude expense_tracker *.pyc
